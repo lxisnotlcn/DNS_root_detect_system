@@ -1,0 +1,28 @@
+******
+2022-01-27T11:17:26Z
+******
+;; connection timed out; no servers could be reached
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @g.root-servers.net errcom +nord
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 38714
+;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: a31161f0b728daac0100000061f20eb8654e2b349508d989 (good)
+;; QUESTION SECTION:
+;errcom.				IN	A
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022012602 1800 900 604800 86400
+
+;; Query time: 219 msec
+;; SERVER: 192.112.36.4#53(192.112.36.4)
+;; WHEN: 四 1月 27 11:17:45 CST 2022
+;; MSG SIZE  rcvd: 138
+

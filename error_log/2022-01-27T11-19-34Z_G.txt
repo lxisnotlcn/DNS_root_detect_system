@@ -1,0 +1,27 @@
+******
+2022-01-27T11:19:34Z
+******
+"groot-con2-2"
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @g.root-servers.net errcom +nord
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21757
+;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 66b8f5289afc791f0100000061f20f2600532705f86a5dc8 (good)
+;; QUESTION SECTION:
+;errcom.				IN	A
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022012602 1800 900 604800 86400
+
+;; Query time: 239 msec
+;; SERVER: 192.112.36.4#53(192.112.36.4)
+;; WHEN: 四 1月 27 11:19:34 CST 2022
+;; MSG SIZE  rcvd: 138
+

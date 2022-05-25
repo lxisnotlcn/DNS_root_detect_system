@@ -1,0 +1,27 @@
+******
+2022-01-13T11:54:54Z
+******
+******
+;; BADCOOKIE, retrying.
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @b.root-servers.net errcom +nord
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 31009
+;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: fe5964ff9953a4120100000061dfa293a164a0b4fa57a24e (good)
+;; QUESTION SECTION:
+;errcom.				IN	A
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022011201 1800 900 604800 86400
+
+;; Query time: 247 msec
+;; SERVER: 199.9.14.201#53(199.9.14.201)
+;; WHEN: 四 1月 13 11:54:56 CST 2022
+;; MSG SIZE  rcvd: 138
+

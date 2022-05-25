@@ -1,0 +1,27 @@
+******
+2022-01-27T11:15:32Z
+******
+"s1.tok"
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @i.root-servers.net errcom +nord
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 13367
+;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 8c2facc7855dce500100000061f20e35b56d37028e2a2c90 (good)
+;; QUESTION SECTION:
+;errcom.				IN	A
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022012602 1800 900 604800 86400
+
+;; Query time: 91 msec
+;; SERVER: 192.36.148.17#53(192.36.148.17)
+;; WHEN: 四 1月 27 11:15:33 CST 2022
+;; MSG SIZE  rcvd: 138
+

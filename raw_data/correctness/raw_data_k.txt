@@ -1,0 +1,23 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @k.root-servers.net coach. DS +dnssec +norecurse +tcp
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57489
+;; flags: qr aa; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; COOKIE: c7a35edcb8acbf814fb3910c628e069890a4d9732eae34c5 (good)
+;; QUESTION SECTION:
+;coach.				IN	DS
+
+;; ANSWER SECTION:
+coach.			86400	IN	DS	7096 8 2 2C8F67D678443E464938744000D71FE49762EF2F18EB51992D0AA5C9 D7B88C6D
+coach.			86400	IN	RRSIG	DS 8 1 86400 20220606170000 20220524160000 47671 . NPpsdrdb/uSjIdVEHaFbfkvklNGySWtKPLRCQMhIeGAtAzcXfVC9yNS7 zj3q/FQjqkXV3Erqx/T5jTlhZpMhiL5t5YbCJvvdxs2/uplaQygPNrAs lJLXf7gXISsO4cUQvPkE6yY+RX5OYXdurczPNgpGrKtiARahlUcb7GMw r06Co8QzqNOB2xwk+V7oxfgH2lt2vY9bYl8Uj/y2LAZ5bCs/6QnUbc0j UbjkjXzsH+s42GomwPqoIgMsfU/fQ/nmB6bme+cAdCAeJ8qsRd2cxOG+ ivXqsEzxKwyt64uA0Sq//frsqf/K4H+v6KNHm3mV7RmXOM9OYsiEQS87 18hCbQ==
+
+;; Query time: 64 msec
+;; SERVER: 2001:7fd::1#53(2001:7fd::1)
+;; WHEN: 三 5月 25 18:36:40 CST 2022
+;; MSG SIZE  rcvd: 397
+

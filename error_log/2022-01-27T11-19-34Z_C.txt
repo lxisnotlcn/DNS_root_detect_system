@@ -1,0 +1,27 @@
+******
+2022-01-27T11:19:34Z
+******
+"lax1b.c.root-servers.org"
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @c.root-servers.net errcom +nord
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 28978
+;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 3a696f0f4ea2c18071790b4361f20f2623d997ff08e65c74 (good)
+;; QUESTION SECTION:
+;errcom.				IN	A
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022012602 1800 900 604800 86400
+
+;; Query time: 275 msec
+;; SERVER: 192.33.4.12#53(192.33.4.12)
+;; WHEN: 四 1月 27 11:19:34 CST 2022
+;; MSG SIZE  rcvd: 138
+

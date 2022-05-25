@@ -1,0 +1,8 @@
+{
+  "host":"172.20.226.250",
+  "port": 3306,
+  "user": "root",
+  "passwd": "02230317liuxin",
+  "db": "dns_json",
+  "charset": "utf8"
+}

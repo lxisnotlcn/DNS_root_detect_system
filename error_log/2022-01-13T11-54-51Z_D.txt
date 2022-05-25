@@ -1,0 +1,26 @@
+******
+2022-01-13T11:54:51Z
+******
+"sgsg3.droot.maxgigapop.net"
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @d.root-servers.net errcom +nord
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 63916
+;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1450
+;; QUESTION SECTION:
+;errcom.				IN	A
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022011201 1800 900 604800 86400
+
+;; Query time: 287 msec
+;; SERVER: 199.7.91.13#53(199.7.91.13)
+;; WHEN: 四 1月 13 11:54:53 CST 2022
+;; MSG SIZE  rcvd: 110
+

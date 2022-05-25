@@ -1,0 +1,26 @@
+******
+2022-01-13T11:54:47Z
+******
+"M-NRT-JPNAP-2"
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @m.root-servers.net errcom +nord
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 14743
+;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;errcom.				IN	A
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022011201 1800 900 604800 86400
+
+;; Query time: 83 msec
+;; SERVER: 202.12.27.33#53(202.12.27.33)
+;; WHEN: 四 1月 13 11:54:48 CST 2022
+;; MSG SIZE  rcvd: 110
+

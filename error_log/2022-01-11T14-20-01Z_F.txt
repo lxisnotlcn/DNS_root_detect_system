@@ -1,0 +1,27 @@
+******
+2022-01-11T14:20:01Z
+******
+"pek2a.f.root-servers.org"
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @f.root-servers.net errcom +nord
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 5743
+;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: db06e938882cfaa90100000061dd21727920a34b0a27d66e (good)
+;; QUESTION SECTION:
+;errcom.				IN	A
+
+;; AUTHORITY SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022011002 1800 900 604800 86400
+
+;; Query time: 51 msec
+;; SERVER: 192.5.5.241#53(192.5.5.241)
+;; WHEN: 二 1月 11 14:20:01 CST 2022
+;; MSG SIZE  rcvd: 138
+

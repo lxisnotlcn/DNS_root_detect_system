@@ -1,0 +1,10 @@
+******
+2022-01-13T12:10:07Z
+******
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @m.root-servers.net errcom +nord
+; (2 servers found)
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+
