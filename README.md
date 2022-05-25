@@ -1,0 +1,1 @@
+this is a DNS root detect system
